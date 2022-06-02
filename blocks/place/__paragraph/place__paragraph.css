@@ -1,0 +1,28 @@
+.place__pharagraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.63;
+    color: #FFFFFF;
+    grid-row: 2;
+    margin: 26px 0 0;
+    padding: 0;
+}
+
+.place__pharagraph:first-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width:840px) {
+    .place__pharagraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .place__pharagraph {
+        grid-row: 3;
+        grid-column: 1;
+        width: calc(100vw - 16px * 2);
+    }
+}
