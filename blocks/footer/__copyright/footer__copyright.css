@@ -1,0 +1,26 @@
+.footer__copyright {
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 0;
+    justify-self: flex-end;
+}
+
+.footer__copyright:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width:620px) {
+    .footer__copyright {
+        justify-self: unset;
+        margin: 48px 0 0;
+        line-height: 1;
+    }
+}

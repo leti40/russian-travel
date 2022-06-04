@@ -1,8 +1,8 @@
-.place__pharagraph {
+.place__paragraph {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 1.63;
+    line-height: 163%;
     color: #FFFFFF;
     grid-row: 2;
     margin: 26px 0 0;
