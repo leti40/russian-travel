@@ -1,35 +1,10 @@
 .cover {
     position: relative;
-    aspect-ratio: 16 / 10;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
     max-width: calc(100% - 48px * 2);
     margin: 92px auto 0;
     cursor: pointer;
-    background-image: url(../../images/cover-trains.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     font-family: 'Inter', Arial, sans-serif;
 }
-
-.cover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: #2A2C2F;
-        transition: opacity 0.3s ease-in-out;
-        opacity: 0.3;
-    }
-    
-    .cover:hover::before {
-        opacity: 0.8;
-    }
 
 @media screen and (max-width:1160px) {
     .cover {
