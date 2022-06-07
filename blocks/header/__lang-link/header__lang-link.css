@@ -4,6 +4,7 @@
     opacity: 1;
     cursor: pointer;
     transition: opacity 0.3s ease-in-out;
+    border: 2px solid crimson;
 }
 
 .header__lang-link:last-of-type {

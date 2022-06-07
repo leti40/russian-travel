@@ -9,18 +9,18 @@
     padding: 0;
 }
 
-.place__pharagraph:first-of-type {
+.place__paragraph:first-of-type {
     margin: 0;
 }
 
 @media screen and (max-width:840px) {
-    .place__pharagraph {
+    .place__paragraph {
         font-size: 16px;
     }
 }
 
 @media screen and (max-width:620px) {
-    .place__pharagraph {
+    .place__paragraph {
         grid-row: 3;
         grid-column: 1;
         width: calc(100vw - 16px * 2);
