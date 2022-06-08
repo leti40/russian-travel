@@ -26,3 +26,21 @@
         width: calc(100vw - 16px * 2);
     }
 }
+
+@media screen and (max-width:768px) {
+    .place__paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .place__paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        color: #FFFFFF;
+    }
+}

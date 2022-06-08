@@ -3,3 +3,16 @@
     padding: 92px 0 0;
     margin: 0 auto;
 }
+
+@media screen and (max-width:1024px) {
+    .intro {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .intro {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
