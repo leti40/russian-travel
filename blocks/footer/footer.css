@@ -24,3 +24,10 @@
         align-items: flex-start;
     }
 }
+
+@media screen and (max-width:320px) {
+    .footer {
+        margin-top: 64px;
+        padding: 0 0 16px 0;
+    }
+}

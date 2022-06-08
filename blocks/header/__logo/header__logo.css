@@ -1,17 +1,17 @@
 .header__logo {
     align-self: start;
-    margin: 28px 0 0 48px;
+    margin: 0;
     width: 176px;
     height: 52px;
     object-fit: contain;
+    margin: 28px 0 0 48px;
 }
 
 @media screen and (max-width:320px) {
     .header__logo {
-        align-self: start;
-        margin: 16px 0 0 16px;
         max-width: 142px;
-        max-height: 42px;
+        margin: 0;
+        padding: 0;
     }
 }
 

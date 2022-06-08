@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    margin: 46px 48px 0 0;
     padding: 0;
-    border: 2px solid crimson;
 }
 
 @media screen and (max-width:840px) {
