@@ -10,10 +10,6 @@
     color: #FFFFFF;
 }
 
-.place:first-of-type {
-    margin-top: 0;
-}
-
 @media screen and (max-width:1160px) {
     .place {
         grid-template-columns: minmax(440px, 1fr) minmax(min-content, max-content);
@@ -40,5 +36,11 @@
         max-width: 100%;
         margin: 49px auto 0;
         justify-items: center;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .place {
+        max-width: 320px;
     }
 }

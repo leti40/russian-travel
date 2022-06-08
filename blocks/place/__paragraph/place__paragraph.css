@@ -9,10 +9,6 @@
     padding: 0;
 }
 
-.place__paragraph:first-of-type {
-    margin: 0;
-}
-
 @media screen and (max-width:840px) {
     .place__paragraph {
         font-size: 16px;
@@ -38,9 +34,10 @@
 
 @media screen and (max-width:320px) {
     .place__paragraph {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 163%;
-        color: #FFFFFF;
+        grid-row: 3;
+        grid-column: 1;
+        width: calc(100vw - 16px * 2);
+        margin-right: 16px;
+        margin-left: 16px;
     }
 }
