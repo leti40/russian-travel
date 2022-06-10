@@ -1,5 +1,5 @@
 .cover {
-    max-width: calc(100% - 48px * 2);;
+    max-width: calc(100% - 48px * 2);
     margin: 92px auto 0 auto;
     align-self: center;
 }
