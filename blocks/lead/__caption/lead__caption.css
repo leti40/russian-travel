@@ -1,5 +1,6 @@
 .lead__caption {
     margin-top: 8px;
+    margin-bottom: 0;
     align-self: flex-start;
     font-family: 'Inter';
     font-style: normal;

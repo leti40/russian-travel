@@ -12,6 +12,12 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .header__lang-links {
+        margin: 46px 24px 0 0;
+    }
+}
+
 @media screen and (max-width:520px) {
     .header__lang-links {
         margin: 30px 16px 0 0;

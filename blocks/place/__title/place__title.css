@@ -1,4 +1,4 @@
-.place__title {
+/* .place__title {
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -18,10 +18,73 @@
 
 @media screen and (max-width:620px) {
     .place__title {
+        align-self: start;
         width: 288px;
-        margin: 0 auto;
+        margin: 0 16px 0 16px;
         font-size: 32px;
         line-height: 1.09;
         grid-column: 1;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 1.09;
+        margin: 0 16px 0 16px;
+    }
+} */
+
+.place__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    max-width: 460px;
+    color: #ffffff;
+    grid-row: 1;
+    grid-column: 1;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        max-width: 460px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .place__title {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 1.1;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .place__title {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place__title {
+        max-width: 100%;
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 1.09;
+        margin: 0 16px 0 16px;
     }
 }
