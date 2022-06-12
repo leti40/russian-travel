@@ -26,9 +26,9 @@
 
 @media screen and (max-width:320px) {
     .footer {
-        margin-top: 64px; 
+        margin-top: 64px;
         padding: 0 0 16px 0;
     }
 }
 
-/* расстояние между cover и footer на разрешении 320 в брифе 64px, оно соблюдено */
+/* расстояние между cover и footer на разрешении 320 в брифе 64px, оно соблюдено. */
