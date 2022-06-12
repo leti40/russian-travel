@@ -1,5 +1,4 @@
 .footer {
-    font-family: 'Inter', Arial, sans-serif;
     padding: 92px 0 24px;
     max-width: calc(100% - 48px * 2);
     display: flex;
@@ -27,7 +26,9 @@
 
 @media screen and (max-width:320px) {
     .footer {
-        margin-top: 64px;
+        margin-top: 64px; 
         padding: 0 0 16px 0;
     }
 }
+
+/* расстояние между cover и footer на разрешении 320 в брифе 64px, оно соблюдено */

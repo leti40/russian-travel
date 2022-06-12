@@ -1,14 +1,7 @@
 .header {
-    font-family: 'Inter', Arial, sans-serif;
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin: auto;
     max-width: 1280px;
+    margin: auto;
 }
-
-@media screen and (max-width: 320px) {
-    .header {
-      max-width: 288px;
-    }
-  }

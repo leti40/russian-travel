@@ -1,21 +1,10 @@
-/* .place__url-heading {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 1;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    color: #AAAAAA;
-} */
-
 .place__url-heading {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 100%;
     letter-spacing: 2px;
+    text-transform: uppercase;
     color: #aaaaaa;
     margin: 0 0 12px 0;
 }
